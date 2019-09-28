@@ -1,14 +1,8 @@
-import {RepoManager, runCommand} from '@gitsync/test';
+import {createRepo, runCommand} from '@gitsync/test';
 import push from '..';
 import sync from '@gitsync/sync-command';
 
-const {createRepo, removeRepos} = new RepoManager();
-
 describe('push command', () => {
-  afterAll(async () => {
-    await removeRepos();
-  });
-
   test('run command', async () => {
     const source = await createRepo();
 
