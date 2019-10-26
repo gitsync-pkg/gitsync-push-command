@@ -1,6 +1,6 @@
 {
   "name": "@gitsync/push-command",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Execute git push command in the relative repositories directory",
   "keywords": [
     "gitsync",
@@ -28,11 +28,11 @@
     "prepare": "yarn build"
   },
   "dependencies": {
-    "@gitsync/sync": "^0.3.0"
+    "@gitsync/sync": "^0.4.0"
   },
   "devDependencies": {
-    "@gitsync/sync-command": "^0.3.0",
-    "@gitsync/test": "^0.3.0",
+    "@gitsync/sync-command": "^0.4.0",
+    "@gitsync/test": "^0.4.0",
     "@types/jest": "^24.0.18",
     "coveralls": "^3.0.6",
     "jest": "^24.9.0",
