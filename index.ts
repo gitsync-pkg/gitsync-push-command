@@ -52,6 +52,9 @@ command.handler = async (argv: PushArguments) => {
       const result = await repoInstance.run(['push', '--all', '--follow-tags', 'origin']);
       log.info(result);
 
+      const tagResult = await repoInstance.run(['push', '--tags']);
+      log.info(tagResult);
+
     } catch (e) {
       process.exitCode = 1;
       log.error(`Push fail: ${e.message}`);
