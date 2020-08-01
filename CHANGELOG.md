@@ -1,3 +1,10 @@
+## [0.5.4](https://github.com/gitsync-pkg/gitsync-push-command/compare/v0.5.3...v0.5.4) (2020-08-01)
+
+
+### Bug Fixes
+
+* **push-command:** add missing CLI argument definition ([14a112c](https://github.com/gitsync-pkg/gitsync-push-command/commit/14a112c7fbb39f96cc1cbd8207adba2977302062))
+
 ## [0.5.3](https://github.com/gitsync-pkg/gitsync-push-command/compare/v0.5.2...v0.5.3) (2020-07-30)
 
 

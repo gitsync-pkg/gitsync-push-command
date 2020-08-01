@@ -1,6 +1,6 @@
 {
   "name": "@gitsync/push-command",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Execute git push command in the relative repositories directory",
   "keywords": [
     "gitsync",
