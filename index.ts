@@ -20,6 +20,24 @@ command.command = 'push [source-dir]';
 
 command.describe = 'Execute git push command in the relative repositories directory';
 
+command.builder = {
+  'source-dir': {
+    describe: 'Include only source directory matching the given glob, use --include if require multi globs',
+    default: '',
+    type: 'string',
+  },
+  include: {
+    describe: 'Include only source directory matching the given glob',
+    default: [],
+    type: 'array',
+  },
+  exclude: {
+    describe: 'Exclude source directory matching the given glob',
+    default: [],
+    type: 'array',
+  }
+};
+
 command.handler = async (argv: PushArguments) => {
   argv.include || (argv.include = []);
   argv.exclude || (argv.exclude = []);
