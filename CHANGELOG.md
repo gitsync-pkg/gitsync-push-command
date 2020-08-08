@@ -1,3 +1,14 @@
+## [0.5.6](https://github.com/gitsync-pkg/gitsync-push-command/compare/v0.5.5...v0.5.6) (2020-08-08)
+
+
+
+
+
+### Dependencies
+
+* **@gitsync/sync:** upgrade from 0.6.1 to 0.6.2
+* **@gitsync/sync-command:** upgrade from 0.5.3 to 0.5.4
+
 ## [0.5.5](https://github.com/gitsync-pkg/gitsync-push-command/compare/v0.5.4...v0.5.5) (2020-08-06)
 
 
